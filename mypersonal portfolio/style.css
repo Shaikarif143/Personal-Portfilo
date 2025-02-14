@@ -1,0 +1,36 @@
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1555066931-bf19f8fd1085');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+.skill-badge {
+    font-size: 1.2rem;
+    margin: 5px;
+    padding: 10px 20px;
+}
+.img1{
+    border-radius: 25%;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px indianred;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    animation: glow 1.5s infinite;
+}
+@keyframes glow {
+    0%{
+        box-shadow: 0 0 10px indianred;
+    }
+    50%{
+        box-shadow: 0 0 20px indianred;
+    }
+    100%{
+        box-shadow: 0 0 10px indianred;
+    }
+}
